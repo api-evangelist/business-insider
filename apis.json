@@ -1,0 +1,72 @@
+{
+    "name": "Business Insider",
+    "description": "Business Insider is a fast-growing business site with deep financial, media, tech, and other industry verticals. Launched in 2007, the site is now the largest business news site on the web.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/2639-business-insider.jpg",
+    "tags": [
+        "api provider",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/business-insider\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Business Insider",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/2639-business-insider.jpg",
+            "humanURL": "http:\/\/www.businessinsider.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/business-insider-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/business-insider-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/typepad\/alleyinsider\/silicon_alley_insider"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/business-insider"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/business-insider"
+        },
+        {
+            "type": "Email",
+            "url": "dchoi@businessinsider.com"
+        },
+        {
+            "type": "Email",
+            "url": "ecranley@businessinsider.com"
+        },
+        {
+            "type": "Email",
+            "url": "alockie@businessinsider.com"
+        },
+        {
+            "type": "Email",
+            "url": "sgal@businessinsider.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/businessinsider"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.businessinsider.com\/"
+        }
+    ]
+}
