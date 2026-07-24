@@ -1,8 +1,26 @@
 aid: business-insider
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/business-insider.png
 name: Business Insider
-description: 'Business Insider is a company surfaced as a portfolio company of ivp and added to the API
-  Evangelist network as a stub for enrichment. Sector: media. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Business Insider is a global business and financial news media company
+  founded in 2007 and headquartered in New York City, operating as part of Axel Springer.
+  It publishes fast-paced coverage of markets, technology, finance, the economy, retail,
+  media, and careers across its flagship Business Insider brand and verticals such
+  as Markets Insider. The organization was surfaced in the API Evangelist network as
+  a portfolio company of the venture firm IVP. It operates consumer news properties
+  and content syndication feeds rather than a public developer API program, so this
+  profile tracks its public web presence and domain security posture rather than API
+  artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/business-insider/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Media
+- News
+- Business
+- Finance
+- Technology
+- Publishing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.businessinsider.com
+- type: TermsOfService
+  url: https://www.businessinsider.com/terms
+- type: PrivacyPolicy
+  url: https://www.businessinsider.com/privacy-policy
+- type: DomainSecurity
+  url: security/business-insider-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
