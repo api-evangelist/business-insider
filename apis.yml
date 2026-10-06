@@ -41,7 +41,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Media
@@ -57,6 +57,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.businessinsider.com/tech
+  type: Blog
+- url: https://feeds.businessinsider.com/custom/all
+  type: BlogRSS
 - type: Website
   url: https://www.businessinsider.com
 - type: TermsOfService
