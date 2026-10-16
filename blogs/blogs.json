@@ -1,0 +1,21 @@
+{
+  "repo": "business-insider",
+  "feeds": [
+    {
+      "source": "https://www.businessinsider.com/tech",
+      "feed_url": "https://feeds.businessinsider.com/custom/all",
+      "title": "",
+      "saved": 20,
+      "method": "discovered"
+    },
+    {
+      "source": "https://feeds.businessinsider.com/custom/all",
+      "feed_url": "https://feeds.businessinsider.com/custom/all",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 20,
+  "fetched": "2026-10-10T13:15:00Z"
+}
